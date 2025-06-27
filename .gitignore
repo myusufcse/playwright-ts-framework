@@ -1,0 +1,22 @@
+# Node modules
+node_modules/
+
+# Playwright test results and reports
+test-results/
+playwright-report/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+
+# TypeScript build output (if any)
+dist/
+out/
+
+# VS Code settings (optional)
+.vscode/

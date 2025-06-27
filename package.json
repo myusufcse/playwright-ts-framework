@@ -1,0 +1,33 @@
+{
+  "name": "playwright-ts-framework",
+  "version": "1.0.0",
+  "description": "A Playwright testing framework using TypeScript.",
+  "main": "playwright.config.ts",
+  "scripts": {
+    "test": "playwright test",
+    "test:report": "playwright show-report",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.53.1",
+    "@types/node": "^16.0.0",
+    "playwright": "^1.53.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^4.9.5"
+  },
+  "keywords": [
+    "playwright",
+    "testing",
+    "typescript"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "directories": {
+    "test": "tests"
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "@types/winston": "^2.4.4",
+    "winston": "^3.17.0"
+  }
+}
