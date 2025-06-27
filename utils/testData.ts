@@ -1,14 +1,13 @@
 export const testData = {
     validUser: {
-        username: 'testuser',
-        password: 'password123'
+        username: 'standard_user',
+        password: 'secret_sauce'
     },
     invalidUser: {
-        username: 'invaliduser',
-        password: 'wrongpassword'
+        username: 'standard_user',
+        password: 'wrong_password'
     },
-    dashboardData: {
-        title: 'Dashboard',
-        widgets: ['Widget1', 'Widget2', 'Widget3']
+    homePage: {
+        title: 'Swag Labs'
     }
 };
