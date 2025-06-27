@@ -54,6 +54,12 @@ playwright-ts-framework/
    npx playwright test
    ```
 
+5. **To open last HTML report run::**
+   You can run the following command to open last HTML report:
+   ```bash
+   npx playwright show-report
+   ```
+   
 ## Usage Guidelines
 
 - Test cases are located in the `tests` directory. Each test file should contain related test cases.
