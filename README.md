@@ -14,9 +14,6 @@ playwright-ts-framework/
 │   ├── BasePage.ts               # Base class for common page methods
 │   └── LoginPage.ts              # Login page specific methods
 │
-├── fixtures/                     # Test data fixtures or reusable setup
-│   └── auth.fixture.ts           # Authentication related test data
-│
 ├── utils/                        # Helper functions or constants
 │   ├── testData.ts               # Test data used across tests
 │   └── logger.ts                 # Utility functions for logging
